@@ -31,8 +31,8 @@ function Signup() {
 
 
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100 bg-primary">
-      <div className="bg-white p-3 rounded w-25">
+    <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
+      <div className="bg-white p-3 rounded w-25 border border-2 shadow p-3 mb-5 bg-body rounded">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
@@ -81,7 +81,7 @@ function Signup() {
           </button>
           <p>You agree to our terms and conditions</p>
           <Link to="/login" className="btn btn-default border w-100 bg-light">
-            <strong>Create Account</strong>
+            <strong>Login</strong>
           </Link>
         </form>
       </div>
